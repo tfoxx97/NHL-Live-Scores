@@ -19,9 +19,10 @@ A simple Python script that allows users to select their favorite NHL team and r
 ---
 
 ## 🚀 Getting Started
+### Prerequisites: 
+* Python 3.12 or higher
 
 ### Installation
-
 Clone the repository:
 
 ```bash
