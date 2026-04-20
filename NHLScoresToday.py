@@ -134,6 +134,6 @@ if __name__ == "__main__":
         your_team = input("Enter your favorite NHL team (abbreviation): ").upper()
     
     if your_team in nhl_abbreviations:
-        client = NHLClient(timeout=7200, polling=1.0)
+        client = NHLClient(timeout=7200)
         client.get_daily_schedule(your_team)
         
